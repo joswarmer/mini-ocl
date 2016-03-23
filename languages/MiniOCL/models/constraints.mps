@@ -238,5 +238,21 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="5DF0Fbubu1i">
+    <property role="3GE5qa" value="OCL_Types" />
+    <ref role="1M2myG" to="d3qy:5DF0FbuboGH" resolve="UML_ClassType" />
+    <node concept="EnEH3" id="5DF0Fbubu1j" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="5DF0Fbubu1m" role="EtsB7">
+        <node concept="3clFbS" id="5DF0Fbubu1n" role="2VODD2">
+          <node concept="3clFbF" id="5DF0Fbubu2y" role="3cqZAp">
+            <node concept="Xl_RD" id="5DF0FbubxbB" role="3clFbG">
+              <property role="Xl_RC" value="Class" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

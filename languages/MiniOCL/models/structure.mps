@@ -70,11 +70,6 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="kN9ZClzQPT" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="type" />
-      <ref role="20lvS9" node="5h6HcU5Umqo" resolve="OCL_Type" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5h6HcU5Umq$">
     <property role="1pbfSe" value="634381454" />
@@ -512,6 +507,18 @@
     <ref role="1TJDcQ" node="5h6HcU5Umqr" resolve="OCL_Expression" />
     <node concept="PrWs8" id="6kdnukG0ATz" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5DF0FbuboGH">
+    <property role="1pbfSe" value="949521887" />
+    <property role="3GE5qa" value="OCL_Types" />
+    <property role="TrG5h" value="UML_ClassType" />
+    <property role="34LRSv" value="ClassType" />
+    <ref role="1TJDcQ" node="5h6HcU5Umqo" resolve="OCL_Type" />
+    <node concept="1TJgyj" id="5DF0FbuboGI" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="umlClass" />
+      <ref role="20lvS9" node="5h6HcU5UmqS" resolve="UML_Class" />
     </node>
   </node>
 </model>
