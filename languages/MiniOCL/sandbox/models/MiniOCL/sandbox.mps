@@ -257,7 +257,7 @@
     <node concept="3hFsmv" id="kN9ZClzQOx" role="3hFsml">
       <node concept="19SGf9" id="kN9ZClzQOz" role="3vMI7q">
         <node concept="19SUe$" id="kN9ZClzQO$" role="19SJt6">
-          <property role="19SUeA" value="dit is commentaar bij deze klasse.  n  djhfksdhkg hjds;jkg;sg;H HJJKDS0GK;&#10;&#10;&#10;&#10;                              KOETERWAALS&#10;dtrshetm&#10;E6RTNERH6YG&#10;EWTBBEHRSE46A&#10;ET BZSEDTA4ESGTE4ASTAES&#10;datherTIBTJ4BHAEYTAHOETHWAUDR. Ik snap ook niet waarom de backslashes niet lager komen te staan,&#10;maar ja, je moet toch wat, he?" />
+          <property role="19SUeA" value="dit is commentaar bij deze klasse.  n  djhfksdhkg hjds;jkg;sg;H HJJKDS0GK;&#10;&#10;&#10;&#10;                              KOETERWAALS&#10;dtrshetm&#10;E6RTNERH6YG&#10;EWTBBEHRSE46A&#10;ET BZSEDTA4ESGTE4ASTAES&#10;datherTIBTJ4BHAEYTAHOETHWAUDR. Ik snap ook niet waarom de streepjes niet lager komen te staan,&#10;maar ja, je moet toch wat, he?" />
         </node>
       </node>
     </node>
@@ -276,8 +276,10 @@
       <node concept="gJ8sZ" id="5WteauI8Uk2" role="gJepv">
         <ref role="gJecx" node="6$TKgYQWNl5" resolve="EUQTYUY" />
       </node>
-      <node concept="19RvD3" id="6lCl8wGKGwO" role="3hFX9W">
-        <property role="19RvD4" value="123456789" />
+      <node concept="3L89Qg" id="7YoETgCSLxs" role="3hFX9W">
+        <node concept="19RvD3" id="6lCl8wGKGwO" role="3L89Qu">
+          <property role="19RvD4" value="123456789" />
+        </node>
       </node>
       <node concept="3hFsmv" id="kN9ZClzZcG" role="3hFsml">
         <node concept="19SGf9" id="kN9ZClzZcI" role="3vMI7q">
@@ -292,14 +294,16 @@
       <node concept="gJ8sZ" id="6DXrpBAcLXL" role="gJepv">
         <ref role="gJecx" to="oxw4:6lCl8wGLd7F" resolve="Integer" />
       </node>
-      <node concept="19QQQM" id="5WteauIhPyG" role="3hFX9W">
-        <node concept="3LnZ9l" id="5WteauIhPyH" role="19QRai">
-          <node concept="19RvD3" id="5WteauIhPyI" role="3L89Qu">
-            <property role="19RvD4" value="2" />
+      <node concept="3L89Qg" id="7YoETgCSLxM" role="3hFX9W">
+        <node concept="19QQQM" id="5WteauIhPyG" role="3L89Qu">
+          <node concept="3LnZ9l" id="5WteauIhPyH" role="19QRai">
+            <node concept="19RvD3" id="5WteauIhPyI" role="3L89Qu">
+              <property role="19RvD4" value="2" />
+            </node>
           </node>
-        </node>
-        <node concept="19RvD3" id="5WteauIhPyJ" role="19QRal">
-          <property role="19RvD4" value="3" />
+          <node concept="19RvD3" id="5WteauIhPyJ" role="19QRal">
+            <property role="19RvD4" value="3" />
+          </node>
         </node>
       </node>
     </node>
@@ -315,8 +319,16 @@
             <property role="3ecH1y" value="aap" />
           </node>
         </node>
-        <node concept="19RvD3" id="6DXrpBAcM0w" role="2cjQqI">
-          <property role="19RvD4" value="20" />
+        <node concept="3Le1di" id="7YoETgCUwMO" role="2cjQqI">
+          <node concept="3Le1di" id="7YoETgCUwM8" role="3LfCz1">
+            <node concept="3Le1hY" id="7YoETgCUwM6" role="3Le1mS">
+              <ref role="3Le1hX" node="6DXrpBAcLZd" resolve="var1" />
+            </node>
+            <node concept="193Ne7" id="2yI2GUJ1GaH" role="3LfCz1" />
+          </node>
+          <node concept="3Le1hY" id="7YoETgCUwNz" role="3Le1mS">
+            <ref role="3Le1hX" node="6kdnukG8eli" resolve="tttt" />
+          </node>
         </node>
       </node>
     </node>
@@ -328,9 +340,61 @@
       <node concept="2cjQqH" id="5WteauI8TUi" role="3hFX9W">
         <node concept="2cjQqz" id="5WteauIbKVK" role="2cjQqG">
           <property role="TrG5h" value="var3" />
+          <node concept="gJ8sZ" id="7YoETgCTWPm" role="2cijDs">
+            <ref role="gJecx" to="oxw4:6DXrpBAboTJ" resolve="Boolean" />
+          </node>
         </node>
         <node concept="3ecH2t" id="5WteauI8TVZ" role="2cjQqI">
           <property role="3ecH1y" value="some string" />
+        </node>
+      </node>
+    </node>
+    <node concept="3hFX9E" id="7YoETgCSIjT" role="3hFX9P">
+      <property role="TrG5h" value="aaa" />
+      <node concept="gJ8sZ" id="7YoETgCSIk$" role="gJepv">
+        <ref role="gJecx" to="oxw4:6lCl8wGLd7F" resolve="Integer" />
+      </node>
+      <node concept="2clC8d" id="2yI2GUIWdDi" role="3hFX9W">
+        <node concept="2cknyz" id="2yI2GUIWdFM" role="2clC8c">
+          <property role="2cknyy" value="true" />
+        </node>
+        <node concept="19RvD3" id="2yI2GUIWdLK" role="2clC81">
+          <property role="19RvD4" value="12" />
+        </node>
+        <node concept="19RvD3" id="2yI2GUIWdN8" role="2clC9k">
+          <property role="19RvD4" value="24" />
+        </node>
+      </node>
+      <node concept="3hFsmv" id="2yI2GUJ133Z" role="3hFsml">
+        <node concept="19SGf9" id="2yI2GUJ1340" role="3vMI7q">
+          <node concept="19SUe$" id="2yI2GUJ1341" role="19SJt6">
+            <property role="19SUeA" value="some comment tra la la" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3hFX9E" id="2yI2GUJ1G3P" role="3hFX9P">
+      <property role="TrG5h" value="hope" />
+      <node concept="gJ8sZ" id="2yI2GUJ1G4R" role="gJepv">
+        <ref role="gJecx" to="oxw4:6DXrpBAboTJ" resolve="Boolean" />
+      </node>
+      <node concept="3hFsmv" id="2yI2GUJ1G50" role="3hFsml">
+        <node concept="19SGf9" id="2yI2GUJ1G51" role="3vMI7q">
+          <node concept="19SUe$" id="2yI2GUJ1G52" role="19SJt6">
+            <property role="19SUeA" value="another comment" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3hFrBe" id="2yI2GUIXYOI" role="3hFX9N">
+      <node concept="2clkaG" id="2yI2GUIY_FK" role="3hFrBf">
+        <property role="2clij7" value="30 " />
+      </node>
+      <node concept="3hFsmv" id="2yI2GUJ0oWt" role="3hFsml">
+        <node concept="19SGf9" id="2yI2GUJ0oWu" role="3vMI7q">
+          <node concept="19SUe$" id="2yI2GUJ0oWv" role="19SJt6">
+            <property role="19SUeA" value="joehoe joehoe" />
+          </node>
         </node>
       </node>
     </node>

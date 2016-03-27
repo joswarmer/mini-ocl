@@ -123,7 +123,7 @@
   <node concept="1TIwiD" id="5h6HcU5UKO0">
     <property role="1pbfSe" value="634273330" />
     <property role="TrG5h" value="OCL_Invariant" />
-    <property role="34LRSv" value="invariant" />
+    <property role="34LRSv" value="inv:" />
     <property role="R4oN_" value="an OCL Invariant" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5h6HcU5UKO1" role="1TKVEi">
@@ -139,8 +139,8 @@
   <node concept="1TIwiD" id="5h6HcU5UR5h">
     <property role="1pbfSe" value="634247649" />
     <property role="TrG5h" value="OCL_Comment" />
-    <property role="34LRSv" value="comment" />
-    <property role="R4oN_" value="A comment that can be added to any miniOCL component" />
+    <property role="R4oN_" value="A comment that can be added to a miniOCL component" />
+    <property role="34LRSv" value="--" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6$TKgYQWM3l" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -296,6 +296,7 @@
     <property role="1pbfSe" value="1353030450" />
     <property role="TrG5h" value="OCL_NullLiteralExp" />
     <property role="3GE5qa" value="OCL_Primitives" />
+    <property role="34LRSv" value="null" />
     <ref role="1TJDcQ" node="kN9ZClzWjC" resolve="OCL_LiteralExp" />
   </node>
   <node concept="1TIwiD" id="6DXrpBAa2Qr">
@@ -520,6 +521,14 @@
       <property role="20kJfa" value="umlClass" />
       <ref role="20lvS9" node="5h6HcU5UmqS" resolve="UML_Class" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2yI2GUJ1Gup">
+    <property role="1pbfSe" value="676015513" />
+    <property role="3GE5qa" value="PrimNumeralExpressions" />
+    <property role="TrG5h" value="PrimEqualExp" />
+    <property role="34LRSv" value="=" />
+    <property role="R4oN_" value="A binary expression that equates the left hand side with the right hand side" />
+    <ref role="1TJDcQ" node="6lCl8wGGMom" resolve="PrimBinaryExp" />
   </node>
 </model>
 
